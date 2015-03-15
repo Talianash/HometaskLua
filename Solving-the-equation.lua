@@ -1,3 +1,4 @@
+print("I can solve this equation: ax^2 + bx + c")
 print("Enter the main coefficient")
 a = io.read()
 assert(tonumber(a), "You should enter the number")
@@ -15,6 +16,7 @@ function solvingeq(a , b, c)
 	end
 	D = Disc(a, b, c)
 	if a == "0" then
+		assert(b ~= "0", "You don't have anything to be solved")
 		x  = (-c)/b
 		return (x)
 	else
