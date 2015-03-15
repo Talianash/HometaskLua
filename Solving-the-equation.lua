@@ -1,4 +1,4 @@
-print("I can solve this equation: ax^2 + bx + c")
+print("I can solve this equation: ax^2 + bx + c = 0")
 print("Enter the main coefficient")
 a = io.read()
 assert(tonumber(a), "You should enter the number")
